@@ -4,8 +4,9 @@ const english: Language = {
   // COMMON STRINGS
 
   MISSING_MEMBER: "No member was found.",
-  MISSING_PERM_LEVEL: "You do not have the necessary permissions to use this command.",
-  
+  MISSING_PERM_LEVEL:
+    "You do not have the necessary permissions to use this command.",
+
   // COMMANDS STRINGS
 
   // Avatar Command
@@ -21,16 +22,16 @@ const english: Language = {
   LANGUAGE_KEY_DESCRIPTION: "What language would you like to set?",
   LANGUAGE_MISSING_KEY: "No language was provided.",
   LANGUAGE_INVALID_KEY: (languages: string[]) =>
-    `I could not find a language with that name. Valid languages are: ${
-      languages.join(" ")
-    }`,
+    `I could not find a language with that name. Valid languages are: ${languages.join(
+      " "
+    )}`,
   LANGUAGE_UPDATED: (language: string) =>
     `The language has been updated to ${language}`,
 
   // Ping Command
   PING_NAME: "ping",
   PING_DESCRIPTION: "Check whether the bot is online and responsive.",
-  PING_RESPONSE: "Pong! Discordeno Best Lib!",
+  PING_RESPONSE: "Pong! BotBert is awesome!"
 };
 
 export default english;
